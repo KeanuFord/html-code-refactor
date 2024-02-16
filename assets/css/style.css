@@ -1,3 +1,6 @@
+/*  ===============================================
+    General Sizing and padding 
+    ===============================================*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +11,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/*  ===============================================
+    Main header
+    ===============================================*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +21,18 @@ body {
     color: #ffffff;
 }
 
+/* Org name position and sizing*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* color of "seo" in org name */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Hyperlinks formating*/
 .links {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,15 +41,18 @@ body {
     font-size: 20px;
 }
 
+/* remove bullets from hyperlinks */
 .links ul {
     list-style-type: none;
 }
 
+/* keep hyperlinks in line */
 .links ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Keep hyperlinks white after clicking */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +62,9 @@ p {
     font-size: 16px;
 }
 
+/*  ===============================================
+    Background image
+    ===============================================*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +74,35 @@ p {
     background-position: center;
 }
 
+/*  ===============================================
+    Main content area
+    ===============================================*/
+ 
+/* Main content area */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Blue square for each section */
+.mission-statement {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main content headers */
+.mission-statement h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* image alignment and sizing */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,12 +115,11 @@ p {
     max-height: 200px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/*  ===============================================
+    Side content area
+    ===============================================*/
 
+/* Side content block */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,37 +131,28 @@ p {
     background-color: #2589bd;
 }
 
+/* text margin and color */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* header centering */
 .benefit-sub h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* image positioning */
 .benefit-sub img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.mission-statement {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.mission-statement h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*  ===============================================
+    Footer
+    ===============================================*/
 
 .footer {
     padding: 30px;
